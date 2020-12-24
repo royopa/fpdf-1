@@ -5,6 +5,7 @@ php:
   - 8.0
 
 before_script:
+  - composer update --no-interaction
   - composer install --no-interaction
 
 script:
